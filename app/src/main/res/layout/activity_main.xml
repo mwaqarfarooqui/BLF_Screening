@@ -207,6 +207,7 @@
                         android:onClick="@{callback::openSpecificActivity}"
                         android:padding="12dp"
                         android:text="Open Follow-up Form"
+                        android:visibility="gone"
                         android:textAppearance="@style/TextAppearance.AppCompat.Large"
                         android:textColor="@color/white" />
 
@@ -215,6 +216,7 @@
     android:id="@+id/openFups"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:visibility="gone"
     android:onClick="@{callback::openSpecificActivity}"
     android:text="Followups" />
                 <LinearLayout

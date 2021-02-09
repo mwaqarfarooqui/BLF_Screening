@@ -51,11 +51,11 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    testImplementation 'junit:junit:4.13'
+    testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
@@ -67,7 +67,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
     //Coroutine
-    def coroutine_version = '1.3.9-native-mt-2'
+    def coroutine_version = '1.4.2-native-mt'
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_version"
 
@@ -89,11 +89,11 @@ dependencies {
     implementation 'com.github.BlackBoxVision:datetimepicker-edittext:v0.4.0'
 
     //Date Time
-    implementation 'com.jakewharton.threetenabp:threetenabp:1.2.4'
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.3.0'
 
 
     // WorkManager
-    def work_version = "2.4.0"
+    def work_version = '2.5.0'
     // WorkManager (Java only)
     implementation "androidx.work:work-runtime:$work_version"
     // WorkManager (Kotlin + coroutines)
@@ -104,9 +104,9 @@ dependencies {
 
     //RxJava
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
-    implementation 'io.reactivex.rxjava3:rxjava:3.0.6'
+    implementation 'io.reactivex.rxjava3:rxjava:3.0.9'
     implementation 'com.jakewharton.rxbinding3:rxbinding:3.1.0'
-
+    implementation 'com.journeyapps:zxing-android-embedded:4.1.0'
 }
 repositories {
     mavenCentral()
