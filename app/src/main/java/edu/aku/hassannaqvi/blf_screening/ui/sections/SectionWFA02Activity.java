@@ -34,13 +34,13 @@ public class SectionWFA02Activity extends AppCompatActivity {
 
     private void setupSkips() {
 
-        bi.wfa201.setOnCheckedChangeListener((group, id) -> {
+        /*bi.wfa201.setOnCheckedChangeListener((group, id) -> {
             Clear.clearAllFields(bi.fldGrpCVwfa202);
             bi.fldGrpCVwfa202.setVisibility(View.VISIBLE);
             if (id == bi.wfa20101.getId()) {
                 bi.fldGrpCVwfa202.setVisibility(View.GONE);
             }
-        });
+        });*/
 
         bi.wfa203.setOnCheckedChangeListener((group, id) -> {
             Clear.clearAllFields(bi.fldGrpCVwfa204);
